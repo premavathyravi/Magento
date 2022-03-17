@@ -1,0 +1,16 @@
+{
+    "helloworld_tbl": {
+        "column": {
+            "id": true,
+            "name": true,
+            "description": true,
+            "price": true,
+            "is_default": true,
+            "created_at": true
+        },
+        "constraint": {
+            "PRIMARY": true,
+            "HELLOWORLD_TBL_NAME": true
+        }
+    }
+}
