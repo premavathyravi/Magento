@@ -1,8 +1,8 @@
 # Magento
+For Feedback Module
+
 For SMTP I used ->  composer require magepal/magento2-gmailsmtapp
 
-
-This is the feedback Module
 Task 1:
 1. Display customer feedback link at footer
 2. Display the form in the customer feedback landing page and form will have the below fields
