@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+		<script src="Magelearn_Customform::js/common.js" async="async" />
+	</head>
+    <body>
+        <referenceContainer name="page.top">
+            <block class="Magelearn\Customform\Block\Cms\Index" name="top.line" template="Magelearn_Customform::slider.phtml" />
+        </referenceContainer>
+    </body>
+</page>

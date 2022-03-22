@@ -1,0 +1,22 @@
+{
+    "name": "magelearn/module-customform",
+    "description": "Create Custom Form and Data Management from Backend",
+    "type": "magento2-module",
+    "minimum-stability": "dev",
+    "version": "1.0.0",
+    "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+    ],
+    "require": {
+      "php": "~7.2.0||~7.3.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magelearn\\Customform\\": ""
+        }
+    }
+}

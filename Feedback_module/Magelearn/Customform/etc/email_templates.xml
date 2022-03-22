@@ -1,0 +1,5 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:Magento:module:Magento_Email:etc/email_templates.xsd">
+    <template id="customer_email_template" label="Test email" file="customer.html" type="html" module="Magelearn_Customform" area="frontend"/>
+    <template id="approve_email_template" label="Approve email" file="approve.html" type="html" module="Magelearn_Customform" area="adminhtml"/>
+    <template id="decline_email_template" label="Decline email" file="decline.html" type="html" module="Magelearn_Customform" area="adminhtml"/>
+</config>

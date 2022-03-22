@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>    
+		<add id="Magelearn_Customform::home" title="Customer Feedback" module="Magelearn_Customform" sortOrder="1000" parent="Magento_Customer::customer_group" resource="Magento_Customer::customer" action="mladmincustomform/customform"/>
+	</menu>
+</config>
